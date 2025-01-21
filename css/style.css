@@ -3,3 +3,26 @@
     padding: 0;
 }
 /* utility  */
+.nav-link-navbar{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s;
+    color: #f2f2f2;
+}
+.nav-link-navbar:hover{
+    color: #a2a2a2;
+}
+.login, .sing-up{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s;
+}
+.login, .sing-up{
+    color: #f2f2f2; 
+}
+.login:hover, .sing-up:hover{
+    color: #a2a2a2;
+}
+/* das Ende von Utility */
