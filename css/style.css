@@ -3,6 +3,9 @@
     padding: 0;
 }
 /* utility  */
+.header{
+    background: linear-gradient(rgba(17, 17, 17, 0.7),rgba(42, 41, 41, 0.4));
+}
 .nav-link-navbar{
     font-size: 18px;
     font-weight: 400;
@@ -26,3 +29,50 @@
     color: #a2a2a2;
 }
 /* das Ende von Utility */
+/* banner  */
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)),url("/imgs/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+.banner-title{
+    animation-name: banner-title;
+    animation-duration: 3s;
+}
+.banner-desc{
+    animation-name: banner-desc;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+@keyframes banner-title {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes banner-desc {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* das Ende von Banner */
