@@ -4,7 +4,8 @@
 }
 /* utility  */
 .header{
-    background: linear-gradient(rgba(17, 17, 17, 0.7),rgba(42, 41, 41, 0.4));
+    background: linear-gradient(rgba(17, 17, 17, 1),rgba(42, 41, 41, 0.9));
+    z-index: 1;
 }
 .nav-link-navbar{
     font-size: 18px;
@@ -75,4 +76,34 @@
         opacity: 1;
     }
 }
+
 /* das Ende von Banner */
+/* services */
+.card-services{
+    background:linear-gradient(to Right ,rgba(0,0,0,0.9),rgba(0,0,0,0.5));
+    transition: all 0.4s;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    color: #ccc;
+   
+}
+
+.card-services:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.animation-service{
+    animation-name:card-services ;
+    animation-duration: 2s;
+
+}
+@keyframes card-services {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Das Ende von Services */
