@@ -1,0 +1,50 @@
+.login-banner{
+    background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.6)),url("/imgs/login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.login-form{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%)
+}
+.inner-con{
+    border: 1px solid #cccccc;;
+    padding: 50px 0px;
+    border-radius: 10px;
+    box-shadow:3px 2px 8px #7c7979;
+}
+.name-input, .email-input, .password-input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 18px;
+    color: red;
+    transition: all .4s;
+}
+.name-input:focus, .email-input:focus, .password-input:focus{
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    color: #cccc;
+    border-bottom: 1px solid rgb(203, 136, 136);
+}
+.login-btn{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3));
+    transition: all 0.5s;
+    font-weight: 500;
+}
+.login-btn:hover{
+    transform: translateY(-4px);
+    background: linear-gradient(to Right , rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+}
+.dont-have-account{
+    font-size: 16px;
+    color: #cccc;
+    transition: all 3s;
+}

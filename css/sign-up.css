@@ -1,0 +1,14 @@
+.sign-up-banner{
+    background: linear-gradient(105deg , rgba(21,31,32,0.8) 0%, rgba(21,31,32,0.9) 50%, rgba(0,0,0,0.6) 50%), url(../imgs/sihn-up.jpg);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.register-form{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%)
+}
