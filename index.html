@@ -309,8 +309,8 @@
       </div>
     </section>
     <!-- Die meistverkauften Bücher -->
-    <section class="bücher mb-5">
-      <div class="container-fluid bg-secondary bg-opacity-25 py-4 border-bottom border-4">
+    <section class="bücher bg-secondary bg-opacity-25 mb-5">
+      <div class="container py-4 border-bottom border-4">
         <div class="title-section w-50 mx-auto text-center my-5">
           <h2 class="fw-bold">Die meistverkauften Bücher</h2>
           <p class="my-2">
@@ -320,7 +320,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 mt-2 verkäufistenBücherCard">
-            <div class="card rounded border-1" style="max-width: 440px">
+            <div class="card rounded mx-auto" style="max-width: 440px">
               <div class="row g-0">
                 <div class="col-lg-6">
                   <img
@@ -364,14 +364,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 verkäufistenBücherCard">
-            <div class="card rounded border-1" style="max-width: 440px">
+            <div class="card rounded mx-auto" style="max-width: 440px">
               <div class="row g-0">
                 <div class="col-lg-6">
-                  <img
-                    src="./imgs/2.jpg"
-                    class="img-fluid img"
-                    alt=""
-                  />
+                  <img src="./imgs/2.jpg" class="img-fluid img" alt="" />
                 </div>
                 <div
                   class="col-lg-6 justify-content-center align-items-center d-flex"
@@ -408,7 +404,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-2 verkäufistenBücherCard">
-            <div class="card rounded border-1" style="max-width: 440px">
+            <div class="card rounded mx-auto" style="max-width: 440px">
               <div class="row g-0">
                 <div class="col-lg-6">
                   <img src="./imgs/3.jpg" class="img-fluid img" alt="" />
@@ -447,11 +443,106 @@
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
     <!-- Das Ende Der meistverkauften Bücher -->
+    <!-- Topis -->
+    <section class="topics my-5">
+      <div class="container">
+        <div class="row w-75 mx-auto">
+          <div class="accordion" id="accordion-topics">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ersteTopc"
+                  aria-expanded="true"
+                  aria-controls="ersteTopc"
+                >
+                  Erste Topic
+                </button>
+              </h2>
+              <div
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordion-topics"
+                id="ersteTopc"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                    est fugiat corrupti voluptatum voluptatibus reiciendis rem
+                    consectetur maiores, ipsam, laboriosam harum nihil fuga
+                    atque reprehenderit neque perspiciatis qui nam pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-target="#zweiteTopics"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                  aria-controls="zweiteTopics"
+                >
+                  Zweite Topcs
+                </button>
+              </h2>
+              <div
+                class="accordion-collapse accordion"
+                data-bs-parent="#accordion-topics"
+                id="zweiteTopics"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Zweite Topics Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Omnis sed voluptate ipsam dolores
+                    obcaecati ex, nam enim sint id quae, natus debitis!
+                    Voluptates iste officia maxime consectetur ut magni
+                    distinctio?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-target="#dritteTopics"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                  aria-controls="dritteTopics"
+                >
+                  Dritte Topcs
+                </button>
+              </h2>
+              <div
+                class="accordion-collapse accordion"
+                id="dritteTopics"
+                data-bs-parent="#accordion-topics"
+              >
+                <div class="accordion-body">
+                  <p>
+                    dreitte Topics Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Omnis sed voluptate ipsam dolores
+                    obcaecati ex, nam enim sint id quae, natus debitis!
+                    Voluptates iste officia maxime consectetur ut magni
+                    distinctio?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ende des Topics -->
     <!-- Das Ende von Bücher  -->
     <!-- Bootstrap JS und Popper.js -->
     <script src="./scripts/jquery-3.5.1.min.js"></script>
